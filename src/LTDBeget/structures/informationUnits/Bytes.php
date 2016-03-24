@@ -14,8 +14,8 @@ use LTDBeget\structures\informationUnits\base\InformationUnit;
  *
  * @method Bytes add(InformationUnit $unit)
  * @method Bytes subtract(InformationUnit $unit)
- * @method Bytes multiply(InformationUnit $unit)
- * @method Bytes divide(InformationUnit $unit)
+ * @method Bytes multiply(float $unit)
+ * @method Bytes divide(float $unit)
  * 
  * @package LTDBeget\structures\informationUnits
  */

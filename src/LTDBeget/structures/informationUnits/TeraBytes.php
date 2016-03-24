@@ -14,8 +14,8 @@ use LTDBeget\structures\informationUnits\base\InformationUnit;
  *
  * @method TeraBytes add(InformationUnit $unit)
  * @method TeraBytes subtract(InformationUnit $unit)
- * @method TeraBytes multiply(InformationUnit $unit)
- * @method TeraBytes divide(InformationUnit $unit)
+ * @method TeraBytes multiply(float $unit)
+ * @method TeraBytes divide(float $unit)
  * 
  * @package LTDBeget\structures\informationUnits
  */
