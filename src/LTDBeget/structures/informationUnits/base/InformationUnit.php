@@ -170,6 +170,22 @@ abstract class InformationUnit
     }
 
     /**
+     * @return string
+     */
+    public function __toString() : string
+    {
+        return $this->getAmount();
+    }
+
+    /**
+     * @return string
+     */
+    public function asHumanReadableString() : string
+    {
+        return $this->getAmount() . ' ' . $this->getDimension();
+    }
+
+    /**
      * @param float $value
      * @param int   $fromDimension
      * @param int   $toDimension
